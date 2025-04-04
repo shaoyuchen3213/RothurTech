@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4927594-6218-4dad-b218-d398c6cd14f6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/threetypedidemo/Controller/DogsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/threetypedidemo/Dao/DogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/threetypedidemo/Service/DogsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/threetypedidemo/ThreeTypeDiDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/threetypedidemo/model/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/threetypedidemo/ThreeTypeDiDemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/libraries/Spring_Batch_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../a/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock interview review.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz wrong answer.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day5/ProducerConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day5/day5Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/Day6Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/day6Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day7/day7Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day7/day7Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day8/day8Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/day10/note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/day11/day11.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/day11/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/day9/day9.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/ProducerConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/ReentranLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/hw.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../~$ck interview review.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/day4/Day4ote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/day4/Day4ote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/day4/Day4ote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/day4/Day4ote.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2uzX4qiujjA1mAO9ZywVBkCXjtZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ThreeTypeDiDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ThreeTypeDIDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.threetypedidemo.ThreeTypeDiDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4927594-6218-4dad-b218-d398c6cd14f6" name="Changes" comment="" />
+      <created>1743252189840</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743252189840</updated>
+      <workItem from="1743252191893" duration="6471000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

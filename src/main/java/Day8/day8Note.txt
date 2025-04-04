@@ -1,0 +1,64 @@
+1. type of DI
+    setter based : Injected the bean to current class by using setter method, put all annotation to setter method.
+    It is flexible we can make partially injection
+    constructor inject:  using Autowired annotation to inject the IOC container. It is safe because it make unit test easier
+    we can inject the mock easily.
+    field base: All annotation on the field, it is not safe
+
+2. What is IOC containner
+    ApplicationContext & BeanFactory
+        Both interface
+        ApplicationContext extend the BeanFacotry
+            there is three ApllicationContext to implement the AplicationContext interface: ClasPathApllicationContext, FileSystemXmlApplication, AnnotatrionConfiugWebApplicatioNContext
+        XMLBeanfactory implement the BeanFactory Interface
+    ApplicationContext represent the IOC container
+
+3. Bean Scope
+        -Singleton globally one bean will be created for each IOC container
+        -Prototype  everytime we do the DI, the IOC will create a new bean
+        -Request    each http request, the IOC will create bean for each request, after the request done, it will destory
+        -Session    IOC container will create one bean for each seesion
+        -Application Scope  For all application they only have one globally instance
+4. Bean Life Cycle
+    Instantialtion -> Populate Properties -> SetBean -> setBeanFactory -> BeanPostProecessor -> call custome init-method
+    - @PostConstruct
+    - @PreDestory
+    @PostConstruct
+    public void customInit( {
+        //custom logic
+    }
+
+5 AOP (aspect oriented programming)
+    The solution for cross-cutting. It is a programming paradigm which can add additional behavior before existing code or execute extra method during the invoation
+    of specific method.
+    - Aspect   is what you concern, and it use the cut accross. We can use logging, sercurity and Transaction   @Aspenct
+    - Advice   before, after, around, afterThrowing, afterutering
+    - Join Point   a point during the execution of a program
+    - PoinCut  predicate that match join points, expression
+    - target  where we add AOP login
+
+    AOP is based on the dynamic proxy design patter and dynbamic proxy is base on the reflection design pattern
+    Public class Service1 {
+        public void payment() {
+            //log before
+            //business logic about payment logic
+            //log after
+        }
+    }
+
+    Public class Service2 {
+        public void shippment(){
+        //log before
+        //business logic
+        }
+
+
+    }
+
+    public class Service3 {
+        public void refund() {
+
+        }
+    }
+
+    Hibernate: help us to build the relationship between java object and table

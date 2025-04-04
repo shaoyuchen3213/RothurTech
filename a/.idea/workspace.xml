@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a0bf272-b1b8-4758-99c1-5f06b670e1ec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypeDIDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/commons-logging-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-aop-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-aspects-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-batch-core-2.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-batch-infrastructure-2.2.6.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-beans-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-context-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-context-support-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-core-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-expression-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-instrument-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-jdbc-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-jms-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-messaging-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-orm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-oxm-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-test-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ThreeTypesDIDemo/lib/spring-tx-5.2.3.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Week2.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_5_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_Batch_2_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../mock interview review.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../quiz wrong answer.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day5/ProducerConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day5/day5Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/Day6Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/ReflectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day6/day6Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day7/day7Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day7/day7Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/Day8/day8Note.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/DependencyInjectionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/DI/MyApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/ProducerConsumerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/ReentranLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../src/main/java/hw/hw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreeTypeDIDemo/src/main/java/com/example/threetypedidemo/ThreeTypeDiDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeTypeDIDemo/src/main/java/com/example/threetypedidemo/ThreeTypeDiDemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ThreeTypeDIDemo/src/test/java/com/example/threetypedidemo/ThreeTypeDiDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ThreeTypeDIDemo/src/test/java/com/example/threetypedidemo/ThreeTypeDiDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/main/java/day4/Day4ote.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/day4/Day4ote.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../target/classes/day4/Day4ote.class" beforeDir="false" afterPath="$PROJECT_DIR$/../target/classes/day4/Day4ote.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2uzWen2fj3AujXGl2yEiG6V6LZ9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a0bf272-b1b8-4758-99c1-5f06b670e1ec" name="Changes" comment="" />
+      <created>1743251983777</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743251983777</updated>
+      <workItem from="1743251985136" duration="210000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

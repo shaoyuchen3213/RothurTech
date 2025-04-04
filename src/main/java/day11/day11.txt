@@ -1,0 +1,69 @@
+1. JDBC
+    Step: Connection -> statement -> sql query -> process sql -> close connection
+    select update, insert(whole, partial), delete
+    Atomic transaction  (commit, rollback)
+    PreparedStatement, Statement
+    BatchProcessing
+
+
+    sql injection
+    abc@gmail submit
+    select * from order_table where email = 'abc@gmail.com'
+
+    PreparedStatement -> sql injection
+
+    Satatement(regular statement), PreparedStatement (Statement with parameter), CallableStatement
+
+ 1. Hibernate
+    ORM -> Object relational mapping
+    tool: Hibernate, Sequelize, Mybatis
+
+    JPA: Java presistence API specification
+    Hibernate is a implementation of javaEE
+
+    Hibernate Architecture
+    need to setup hibernate.cfg.xml, and set property in here
+    ---------------------------------------------------------------
+    Entity LifeCycle
+        Transient
+        Persistent: The entity object mantains by the session
+        Detached: break object and session, so the object in detached state
+        Removed: previous object connect to session and session connect to database, and when we remove the object, the data in database will also be removed
+
+
+    Mapping
+        OneToOne  Husband <-> Wife
+        ManyToOne
+        OneToMany  Employee -> Account
+        ManyToMany   Reader <-> Subscrption
+
+    Cascade Type
+        Persist
+        Merge : update database with new entity
+        Refresh: updated the object with current row in database
+        Remove
+        Detach
+        All
+
+    Fetch type
+        Lazy loading
+        Eager Loading
+
+        OneToOne: eager
+        ManyToOne: eager
+        OneToMany: Lazy
+        ManyToMany: Lazy
+
+    First level cache/ Second level cache
+    Session level cache
+        open by default
+        first level
+    Session factory Level Cache
+        close by default
+        global
+        second level
+
+    query data from hibernate
+    criteria Queries
+    Hibernate query language
+    Native query

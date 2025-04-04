@@ -1,0 +1,98 @@
+
+
+
+OSI Model and TCP/IP Model
+    Open System Interconnection, 7 layer
+        - application layer: Http, FTP, SMTP, DNS
+        - presentation layer: encryption/ decrytion
+        - session layer: sockets
+        - transport layer:  TCP AND UDP
+        - network layer: IP
+        - data link layer: format of data
+        - physical layer: raw bit
+    TCP/IP Model
+        - application
+        - transport
+        - internet layer
+        - network access layer
+
+
+app1 ->    app2
+
+HTTP(HYPERTEXT TRANSFER PROTOCOL)
+    -client-server model
+    -Http Reuqest
+        -header/ body
+    -Http Response
+        -header / body
+    -Http method:
+        get: read           |safe| idempotent | cacheable|
+        post: create            |no safe| no idempotent | not cacheable |
+        put: whole update   |not safe | idempotent | not cacheable
+        delete: remove      |not safe|   idempotent | not cacheable
+        patch: partial update       |not safe|   no idempotent | not cacheable
+    -http status code
+        1xx  information
+        2xx  success
+        3xx  redirect
+        4xx  client error
+        5xx  internal error
+
+HTTP advanced
+        safe    a http method is safe if it doesn't alter the state of the server
+        idempotent:  a http method is idempotent if an identical request can make once or several time in a row the same effect while
+        leaving the server in the same state
+        cacheable
+            -whether response can be cached
+
+        200 OK
+        201  created
+        202  Accepted
+        204  No content
+        307 temporary redirect
+        301  move permanently
+        400  bad request
+        401 unauthorized
+        403  forbidden
+        500  internal server error
+
+TCP  and UDP
+    - packets(1 - 100) server( 1 - 78, 79, 80-100)
+    TCP has lower speed and error detecion,  TCP 3 way hand shaking: client sent the request segement to the server with SYN flag, and the server received the SYN and response
+    both SYN and ACK flag set. Then the client received the ACK flag set and verify the connection. Now they can sent the data.
+    UDP has no error detection 4 way hand shaking
+
+Cookies and Session
+    cookies : client side
+    session server: server side implement
+
+Java Web Application Architecture
+    -tomcat / jboss / jetty / Apache Tomee
+
+Three Tier Architecture
+        -controller / service / DAO
+
+
+Spring IOC
+    Inversion of control
+    it is a design patter, transfer the control of the object or property of the program to the IOC container. Without using IOC, we need to create a instance of the object then to use it.
+    DI: The object try to use poroperty of other object, the IOC containter will inject it into the project. It is call Dependency Injection. We can switch differenet implementation
+public class Store {
+    private Item item
+    public Store() {
+        this.item = new ItemImpl(
+    }
+}
+
+public class Store {
+    private Item item;
+    public Store(Item item) {
+        this.item = item;
+    }
+}
+class AnotherClass {
+    public static void main(String[] args) {
+        Item item = new ITEM(FIELDS)
+        Store store = new Store(item)
+    }
+}

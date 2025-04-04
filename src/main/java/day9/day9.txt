@@ -1,0 +1,31 @@
+Spring code - > Spring MVC -> Spring Boot
+
+we need to set up servlets by ourself, and xml file
+Spring MVC  we only setup dispatch servlet
+Spring Boot it has tomcat set up for us
+
+Spring MVC
+    -Model  -> View  -> Control
+    send request to dispatchServlet, then dispatchServlet send to handler mapping, controller, and controller send back the model and view to dispatcherServlet
+    then dispatcherServlet sent it to view resolver. Then sent to view
+Spring Boot
+    why? The advantage has auto-configuration, handle all dependencies problem, need starter-validation dependency
+       embedded server -> Tomcat(default server)
+       it is annotation based
+       web-start
+       test-starter
+ Rest API design
+    filter: get   /tickets?state=close
+    sorting: get /tickets?sort=priority, created_at
+    search:  get   /ticket?q=java
+
+ Spring Boot rest
+    @RequestBody: Transfer Json to java object
+    @ReponseBody: Transfer Java Object to Json
+    @Controller vs @RestController   -> controller + responsebody
+    @GetMapping: is used to map HTTP GET request
+    @PutMapping： is used to map HTTP update request
+    @PostMapping: is used to post quest
+    @RequestMapping: is used to request to get speific data.
+    @PathVariable:  used to extract values from the URI (or URL path) of the request
+    @RequestParam:is used to extract query parameters from the request URL.
