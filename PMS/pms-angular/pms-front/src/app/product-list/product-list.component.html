@@ -1,0 +1,131 @@
+<div >
+<button (click) = "clickOnAdd()"> Add Product</button>
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th scope="col">ProductName</th>
+            <th scope="col">Price</th>
+            <th scope="col">Category</th>
+            <th scope="col">Quantity</th>
+		</tr>
+	</thead>
+	<tbody>
+        <tr *ngFor = "let p of products" >
+            <td>{{p.productName}}</td>
+            <td>{{p.price | currency}}</td>
+            <td>{{p.category}}</td>
+            <td>{{p.quantity}}</td>
+            <td>
+                <button (click) = "viewPorduct(p.id)" class="btn btn-outline-secondary" type="button"> View</button>
+            </td>
+        </tr>
+		
+	</tbody>
+</table>
+</div>
+
+
+<ng-container *ngIf="selectedProduct">
+    <h3>Product Detail</h3>
+
+    <ng-container *ngIf="!isEditing; else editTpl">
+    <ul>
+      <li><strong>ID：</strong>{{ selectedProduct.id }}</li>
+      <li><strong>ProductName: </strong>{{ selectedProduct.productName }}</li>
+      <li><strong>Price: </strong>{{ selectedProduct.price | currency }}</li>
+      <li><strong>Category: </strong>{{ selectedProduct.category }}</li>
+      <li><strong>Stock: </strong>{{ selectedProduct.quantity }}</li>
+      <li><strong>Descrption: </strong>{{ selectedProduct.descrption }}</li>
+    </ul>
+    <button (click)=" closeView()" class="btn btn-sm btn-outline-primary">Close</button>
+    <button (click)="editProduct()"        class="btn btn-sm btn-outline-primary">Edit</button>
+    <button (click)="delete(selectedProduct.id)" class="btn btn-sm btn-outline-danger">Delete</button>
+    </ng-container>
+
+    <ng-template #editTpl>
+        <div class="mb-2">
+            <label>Product Name: </label>
+            <input [(ngModel)]="selectedProduct.productName" class="form-control" />
+          </div>
+          <div class="mb-2">
+            <label>Price: </label>
+            <input type="number" [(ngModel)]="selectedProduct.price" class="form-control" />
+          </div>
+          <div class="mb-2">
+            <label>Category: </label>
+            <input [(ngModel)]="selectedProduct.category" class="form-control" />
+          </div>
+          <div class="mb-2">
+            <label>Stock: </label>
+            <input type="number" [(ngModel)]="selectedProduct.quantity" class="form-control" />
+          </div>
+          <div class="mb-2">
+            <label>Descrption: </label>
+            <textarea [(ngModel)]="selectedProduct.descrption" class="form-control"></textarea>
+          </div>
+          <button (click)="save()"       class="btn btn-sm btn-success">Save</button>
+      <button (click)="cancelEdit()" class="btn btn-sm btn-warning">Cancel</button>
+    </ng-template>
+</ng-container>
+<div>
+    <ng-container *ngIf="isAdd">
+        <div class="card mb-4 p-3">
+            <h5>New Product</h5>
+            <div class="row g-2">
+              <div class="col">
+                <label>Product Name: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Product Name"
+                  [(ngModel)]="newProduct.productName"
+                />
+              </div>
+              <div class="col">
+                <label>Price: </label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Price"
+                  [(ngModel)]="newProduct.price"
+                />
+              </div>
+              <div class="col">
+                <label>Category: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Category"
+                  [(ngModel)]="newProduct.category"
+                />
+              </div>
+              <div class="col">
+                <label>Stock: </label>
+                <input
+                  type="number"
+                  class="form-control"
+                  placeholder="Stock"
+                  [(ngModel)]="newProduct.quantity"
+                />
+              </div>
+              <div class="col-3">
+                <label>Descrption: </label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Descrption"
+                  [(ngModel)]="newProduct.descrption"
+                />
+              </div>
+              <div class="col-auto">
+                <button class="btn btn-success" (click)="addProduct()">
+                  Add a new Product
+                </button>
+                <button class="btn btn-success" (click)="cancelEdit()">
+                    Cancel Edit
+                </button>
+              </div>
+            </div>
+          </div>
+    </ng-container>
+</div>
